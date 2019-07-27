@@ -34,4 +34,8 @@
 * 每日一菜
 * 简单的菜
 
-  
+
+
+>  向本repo贡献代码流程
+>
+> * 首先fork到自己的github目录下面，`git clone` 到自己服务器上面，进行自己的新增添加等操作，然后`git add` ， 然后`git commit`，这样会自动检查格式，然后在`git push` 到远程的分支上面，新建pr，等待reveiw。
