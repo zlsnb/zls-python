@@ -5,5 +5,5 @@
     * 打开idea，在preference中配置git。
 
 * Windows
-    * 在https://git-scm.com/downloads这个网站下载符合自己电脑的版本，然后进行安装。
+    * 在https://git-scm.com/downloads 这个网站下载符合自己电脑的版本，然后进行安装。
     * 然后下载个sourcetree进行可视化的git操作。
