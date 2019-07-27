@@ -1,6 +1,6 @@
 # 赵老师学Python
 
-![WechatIMG1](https:github.com/zls-python/Nine-year Compulsory Education/WechatIMG1.jpeg)
+![cat](https://github.com/zlsnb/zls-python/raw/master/res/WechatIMG1.jpeg)
 
 ## 前提背景
 
