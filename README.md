@@ -1,5 +1,7 @@
 # 赵老师学Python
 
+![WechatIMG1](https:github.com/zls-python/Nine-year Compulsory Education/WechatIMG1.jpeg)
+
 ## 前提背景
 
 * 为了能让来自昆明的会唱山歌的HR赵老师段时间内学会如何使用python创建了这个repo。
