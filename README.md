@@ -21,6 +21,9 @@
 * git基本命令
 * git实战
 ### Easy Things
+> sql很简单啊
+> python 超级简单（赵老师要哭了）
+> git 也很简单啊（黄大厨已经哭了）
 ### 菜谱
 
 > 不会python的司机，不是好HR
