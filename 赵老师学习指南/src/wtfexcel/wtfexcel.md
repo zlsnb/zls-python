@@ -16,7 +16,9 @@
 
 # 写之前要干什么
 
-安装一下python，具体请移步[现在还没写好]
+安装一下python，具体请移步[环境安装][python_env_install]
+
+[python_env_install]: /赵老师学习指南/环境安装.md
 
 然后就使用pip安装一下openpyxl叭
 
@@ -34,17 +36,23 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 # 这都什么玩意儿
 
 一般会涉及到的类
-| 相关类    |      瞎**解释                                         |
-|:--------:|:----------------------------------------------------:|
-| Workbook |  可以理解为这就是一个excel文档                           |
-| sheet    |  一个excel文档里面的一张表                              |
 
+|  相关类  |            瞎**解释           |
+|:--------:|:-----------------------------:|
+| Workbook | 可以理解为这就是一个excel文档 |
+|   sheet  |     一个excel里面的一张表     |
+|   cell  |     一个cell代表一个单元格     |
 
-```
-Workbook
-```
 
 # 让我看看(这两个字被屏蔽了)网友都写了什么(然后又被屏蔽了)
+
+[excel读写等基本操作][baseop_excel]
+
+[合并两个excel表][merge_excel]
+
+[baseop_excel]: baseop_excel.py
+
+[merge_excel]: merge_excel.py
 
 # 快去深入学习一下
 [openpyxl官网][openpyxl]

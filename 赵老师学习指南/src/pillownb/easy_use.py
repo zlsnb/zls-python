@@ -1,19 +1,28 @@
 from PIL import Image
 import os
 
-filePath = os.getcwd()
+filePath = os.getcwd() + '/origin/'
 
-img_base = Image.open(filePath + 'bg.png')
-img_base.show()
-img_helmet = Image.open(filePath + 'tip_helmet.png')
-img_helmet.show()
+# 两图拼一块
+def photo_photo():
+    img_base = Image.open(filePath + 'bg.jpg')
+    img_base.show()
+    img_sub = Image.open(filePath + 'subPhoto.jpg')
+    img_sub.show()
 
-helmet_x = 30
-helmet_y = 384
+    x = 0
+    y = 0
 
-box = [helmet_x, helmet_y, helmet_x + img_helmet.size[0], helmet_y + img_helmet.size[1]]
+    box = [x, y, x + img_sub.size[0], y + img_sub.size[1]]
 
-r, g, b, a = img_helmet.split()
-img_base.paste(img_helmet, box)
-img_base.show()
-img_base.save(filePath + 'result.png')
+    img_base.paste(img_sub, box)
+    img_base.show()
+    img_base.save(filePath + 'result.jpg')
+
+# 图上加文字
+def photo_word():
+    pass
+
+if __name__ == '__main__':
+    photo_photo()
+
