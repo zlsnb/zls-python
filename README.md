@@ -1,4 +1,5 @@
 # 赵老师学Python
+![nb](https://img.shields.io/badge/zls--python-nb-brightgreen)
 
 ![cat](https://github.com/zlsnb/zls-python/raw/master/res/WechatIMG1.jpg)
 
